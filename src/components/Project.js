@@ -20,11 +20,11 @@ const Projects = () => {
                <p className="w-full mb-5">Here are some standout projects I've crafted utilizing the MERN stack and Tailwind CSS, showcasing my proficiency and creativity in web development.</p>
             </div>              
         </div>
-        <div className="w-2/3 py-10">
+        <div className="py-10">
             <div className="flex flex-col md:flex-row px-5 gap-4">
                 {config.projects.map((project)=>(                
                 <div className="relative">
-                    <img src={project.image} className="h-[200px] w-[800px]" />
+                    <img src={project.image} className="h-[200px] " />
                     <div className="absolute left-0 right-0 bottom-0 top-0 py-5 bg-white opacity-0 duration-500 hover:opacity-100" >
                         <p className="text-center pb-2">{project.description}</p>
                         <div className="flex justify-center">
