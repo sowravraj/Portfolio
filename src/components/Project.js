@@ -8,12 +8,6 @@ const Projects = () => {
             image : VoyageMingle,
             description : "Voyage Mingle facilitates travel experiences by pairing individuals who share similar mindsets, interests, and ideas, fostering connections and adventures with like-minded strangers.",
             link : "https://github.com/sowravraj/Voyage_Mingle"
-        },
-        {
-            image : Ecommerce,
-            description : "Food Ecommerce website built with mern stack",
-            link : ""
-
         }
         ]
     }
