@@ -28,6 +28,14 @@ header ul li {
     @apply bg-primary font-bold hover:border-2 border-white px-5 py-2
 }
 
+.btnn{
+    @apply bg-primary font-bold hover:border-2 border-white px-2 py-2 
+}
+
+.img-round-border{
+    @apply rounded-3xl overflow-hidden
+}
+
 html {
     scroll-behavior:smooth ;
 }
